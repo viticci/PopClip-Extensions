@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>Extension Identifier</key>
+	<string>com.pilotmoon.popclip.extension.mailpop</string>
+	<key>Extension Name</key>
+	<string>MailPop</string>
+	<key>Required Apps</key>
+	<array>
+		<string>com.apple.mail</string>
+	</array>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>SelectedMailPop.applescript</string>
+			<key>Title</key>
+			<string>MailPop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
